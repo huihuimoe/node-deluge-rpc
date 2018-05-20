@@ -13,7 +13,7 @@ export default {
     globals: {
       'axios': 'axios',
       'stream': 'undefined',
-      'form-data': 'formData'
+      'form-data': 'FormData'
     }
   },
   plugins: [resolve(), commonjs(), uglify({}, minify)],
