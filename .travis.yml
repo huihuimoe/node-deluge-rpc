@@ -1,0 +1,8 @@
+language: node_js
+sudo: false
+install:
+  - nvm install node
+  - npm install
+script:
+  - npm test
+  - npm run build

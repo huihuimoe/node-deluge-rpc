@@ -2,6 +2,11 @@
 
 A simple Deluge-web RPC NodeJs API interface.
 
+[![node](https://img.shields.io/node/v/deluge-rpc.svg)](https://www.npmjs.com/package/deluge-rpc)
+[![npm](https://img.shields.io/npm/v/deluge-rpc.svg)](https://www.npmjs.com/package/deluge-rpc)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/deluge-rpc.svg)](https://www.npmjs.com/package/deluge-rpc)
+[![license](https://img.shields.io/github/license/huihuimoe/node-deluge-rpc.svg)](https://github.com/huihuimoe/node-deluge-rpc)
+
 ## install
 
 You need Nodejs > 8 or lastest version browser to support `class` and `async/await`.
