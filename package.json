@@ -37,7 +37,12 @@
   },
   "standard": {
     "parser": "babel-eslint",
-    "globals": ["File", "Blob"],
-    "ignore": ["./dist"]
+    "globals": [
+      "File",
+      "Blob"
+    ],
+    "ignore": [
+      "./dist"
+    ]
   }
 }
