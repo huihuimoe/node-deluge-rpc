@@ -1,4 +1,5 @@
 import { AxiosPromise } from 'axios'
+import * as stream from 'stream'
 
 declare namespace DelugeRPC {
   export interface DelugeTorrentConfig {
@@ -74,7 +75,7 @@ declare class DelugeRPC {
   call<T = any>(method: string, params?: Array<any>): Promise<T>;
   connect(host?: number | string): Promise<null>;
   getTorrentRecord(): Promise<DelugeRPC.DelugeTorrentRecord>;
-  addTorrent(torrent: string | URL | Buffer | Promise<Buffer> | ReadableStream | File | Blob, config?: string | DelugeRPC.DelugeTorrentConfig): Promise<boolean>
+  addTorrent(torrent: string | URL | Buffer | Promise<Buffer> | ReadableStream | stream.Readable | File | Blob, config?: string | DelugeRPC.DelugeTorrentConfig): Promise<boolean>
 }
 
 export = DelugeRPC;
