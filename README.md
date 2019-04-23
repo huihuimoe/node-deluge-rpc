@@ -11,13 +11,13 @@ A simple Deluge-web RPC NodeJs API interface.
 
 You need Nodejs > 8 or lastest version browser to support `class` and `async/await`.
 
-### Node:
+### Node
 
 ```bash
 npm i deluge-rpc
 ```
 
-### Browser:
+### Browser
 
 It requires `axios` so you should add `axios` first.
 
@@ -29,7 +29,7 @@ It requires `axios` so you should add `axios` first.
 </script>
 ```
 
-## usage
+## Usage
 
 Deluge-rpc fully use async/await to write more pretty code.
 
@@ -69,4 +69,5 @@ Example:
 ```
 
 ## License
+
 [MIT](LICENSE)
