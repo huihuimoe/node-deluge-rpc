@@ -1,6 +1,6 @@
 {
   "name": "deluge-rpc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple Deluge RPC NodeJs API interface.",
   "main": "index.js",
   "scripts": {
