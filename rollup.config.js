@@ -1,7 +1,6 @@
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
-import {uglify} from 'rollup-plugin-uglify'
-import {minify} from 'uglify-es'
+import { terser } from 'rollup-plugin-terser'
 
 export default {
   input: 'index.js',
@@ -16,6 +15,6 @@ export default {
       'form-data': 'FormData'
     }
   },
-  plugins: [resolve(), commonjs(), uglify({}, minify)],
+  plugins: [resolve(), commonjs(), terser()],
   external: ['axios', 'form-data', 'stream']
 }
