@@ -67,9 +67,7 @@ declare namespace DelugeRPC {
     | string
     | URL
     | Buffer
-    | ReadableStream
     | stream.Readable
-    | File
     | Blob
 }
 
