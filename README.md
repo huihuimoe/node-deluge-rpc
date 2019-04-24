@@ -9,7 +9,7 @@ A simple Deluge-web RPC NodeJs API interface.
 
 ## install
 
-You need Nodejs > 8 or lastest version browser to support `class` and `async/await`.
+Need Nodejs > 8 or lastest version browser with `class` and `async/await` supported.
 
 ### Node
 
