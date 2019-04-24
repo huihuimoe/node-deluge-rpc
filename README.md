@@ -38,7 +38,7 @@ Example:
 ```javascript
 (async () => {
   // in browser if you alreay have cookie to access rpc, you can ignore password
-  const deluge  = new DelugeRPC('https://mydeluge.dev/', 'password')
+  const deluge  = new DelugeRPC('https://mydeluge.local/', 'password')
 
   // list all available method
   const methods = await deluge.call("system.listMethods")
